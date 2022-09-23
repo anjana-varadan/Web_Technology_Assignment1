@@ -1,1 +1,112 @@
-/*style the website*/
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.dangerContainer{
+    background-color: #990000;
+    height:40px;
+    width: 100%;
+}
+/* .dangerContainer  */
+.container{
+    width : 66%;
+    height: 30px;
+    /* background-color: gray; */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding:5px;
+    display: flex;
+    align-items: center;
+}
+.dangerContainer .container img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+.dangerContainer .container a{
+    padding-left: 10px;
+    font-size: 16px;
+    color : white;
+}
+.dangerContainer .container a:hover{
+    text-decoration: none;
+}
+.internationlSession{
+    height: 31px;
+    background-color: #2d2d2d;
+}
+.headerSession{
+    background-color: black;
+    height: 80px;
+}
+.imageSession{
+    position: relative;
+    height : 460px;
+    background-color: gray;
+    /* width:100%; */
+}
+.imageSession img{
+    position: relative;
+    height : 100%;
+    width : 100%;
+    object-fit: cover;
+}
+.imageSession p{
+    /* position: absolute; */
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 5px black;
+    color : white;
+}
+.insideContainer{
+    position: absolute;
+    bottom: 110px;
+    width : 66%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding:5px;
+    display: flex;
+    align-items: center;
+}
+.tabSession{
+    height : 52px;
+    background-color: #ccc!important;
+}
+.containerData{
+    position: relative;
+    width : 66%;
+    left:50%;
+    transform: translate(-50%);
+
+}
+.leftContainer{
+    margin-top: 45px;
+    position: relative;
+    float:left;
+    width:55%;
+    height:200px;
+    /* background-color: #2d2d2d; */
+}
+.rightContainer{
+    position: relative;
+    float: right;
+    width: 40%;
+    height:200px;
+    background-color: #990000;
+}
+.tableContainer{
+    border : solid rgb(164, 164, 164) 1px;
+}
+.tableContainer h2{
+    font-size: 18px;
+    color: white;
+    background-color: #0e606c;
+    height:50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
