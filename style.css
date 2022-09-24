@@ -63,7 +63,7 @@
     color : white;
 }
 .insideContainer{
-    position: absolute;
+    /* position: absolute; */
     bottom: 110px;
     width : 66%;
     position: relative;
@@ -81,11 +81,13 @@
     position: relative;
     width : 66%;
     left:50%;
+    top:110px;
     transform: translate(-50%);
-
+    /* background-color: green; */
+    height: 570px;
 }
 .leftContainer{
-    margin-top: 45px;
+    margin-top: 50px;
     position: relative;
     float:left;
     width:55%;
@@ -93,7 +95,8 @@
     /* background-color: #2d2d2d; */
 }
 .rightContainer{
-    margin-top: 2.3125rem;
+    margin-top: 40px;
+    /* margin-top: 2.3125rem; */
     position: relative;
     float: right;
     width: 40%;
@@ -101,7 +104,7 @@
     /* background-color: #990000; */
 }
 .tableContainer{
-    border : solid rgb(164, 164, 164) 1px;
+    border : solid rgba(164, 164, 164, 0.478) 1px;
 }
 .tableContainer h2{
     font-size: 18px;
@@ -112,6 +115,23 @@
     align-items: center;
     padding-left: 10px;
     font-family: sans-serif;
+}
+.leftbargreen{
+    width:3px;
+    height: 60%;
+    position: absolute;
+    left:15px;
+    bottom :10px;
+    background-color: #17a2b8!important;;
+}
+.tableContainer ul{
+    position: relative;
+    list-style-type:disc;
+    padding: 20px;
+    line-height: 25px;
+    margin-left: 45px;
+    font-size: 17px;
+    color : #333132;
 }
 .btnLeft {
     margin-top: 0.5rem;
@@ -144,4 +164,31 @@
 }
 .textLeft p{
     margin-bottom: 1rem;
+}
+.cardSession{
+    position: relative;
+    background-color: #f5f5f5!important;
+    width: 100%;
+    height:450px;
+    position: relative;
+    margin-top: 130px;
+}
+.cardCenter{
+    position: relative;
+    display: flex;
+    /* flex-wrap:wrap; */
+    justify-content: center;
+    /* align-items:flex-start; */
+    width : 66%;
+    height: 320px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+.card{
+    margin:0px 10px;
+    width:350px;
+    height: 100%;
+    background-color: green;
 }
