@@ -43,15 +43,17 @@
 }
 .imageSession{
     position: relative;
-    height : 460px;
+    /* height : 460px; */
+    height: 352px;
     background-color: gray;
     /* width:100%; */
 }
 .imageSession img{
     position: relative;
-    height : 100%;
+    /* height : 100%; */
     width : 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    background-size: cover;
 }
 .imageSession p{
     /* position: absolute; */
@@ -91,11 +93,12 @@
     /* background-color: #2d2d2d; */
 }
 .rightContainer{
+    margin-top: 2.3125rem;
     position: relative;
     float: right;
     width: 40%;
     height:200px;
-    background-color: #990000;
+    /* background-color: #990000; */
 }
 .tableContainer{
     border : solid rgb(164, 164, 164) 1px;
@@ -109,4 +112,36 @@
     align-items: center;
     padding-left: 10px;
     font-family: sans-serif;
+}
+.btnLeft {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #1c467a;
+    border: #1c467a;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.btnLeft:hover{
+    background: #1c5b92;
+    border: #1c5b92;
+    transition: 0.15s;
+}
+.vedioLeft{
+    margin-top: 45px;
+}
+.textLeft{
+    margin-top: 45px;
+}
+.textLeft h2{
+    margin-bottom: 8px;
+    font-size: 1.563rem;
+    font: 25.008px "Roboto Slab", serif;
+}
+.textLeft p{
+    margin-bottom: 1rem;
 }
