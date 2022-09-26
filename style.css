@@ -144,6 +144,7 @@
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    font-size: 16px;
     
 }
 .btnLeft:hover{
@@ -217,6 +218,11 @@
     height: 40px;
     font-size: 16px;
 }
+.card button:hover{
+    background: #1c5b92;
+    border: #1c5b92;
+    transition: 0.15s;
+}
 .numberSession{
     position: relative;
     background-color: white;
@@ -283,6 +289,14 @@
 .adress{
     margin:24px 0px;
     line-height: 19px;
+}
+.secondFooterLink{
+    text-decoration: underline;
+    color: #ccc;
+}
+.secondFooterLink:hover{
+    text-decoration: none;
+    color: #fff;
 }
 .footerCard ul{
     margin:24px 0px;
