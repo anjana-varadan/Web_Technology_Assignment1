@@ -565,8 +565,8 @@
 }
 .footerCard .data img{
     padding:5px;
-    width: 20px;
-    height: 20px;
+    width: 2vw;
+    /* height: 5vh; */
     margin: 5px;
     border: solid white 2px;
     border-radius: 50%;
