@@ -56,6 +56,10 @@
     height: 100%;
     z-index:10;
 }
+.internationlSession .marginForAll{
+    z-index: 15;
+}
+
 .internationlSession .leftNav{
     position: relative;
     float: left; 
@@ -145,7 +149,12 @@
     visibility: visible;
     z-index:10;
   }
-
+  .login{
+    left:-5%;
+  }
+  .info{
+    left:11%;
+  }
 /* drop down ends here - - -- - - - - - - - - - - - - - -- - - - -*/
 
 .internationlSession .rightNav{
@@ -206,7 +215,7 @@
 }
 .imageSession{
     position: relative;
-    height: 48vh;
+    /* height: 48vh; */
     /* background-color: gray; */
     /* width:100%; */
 }
@@ -215,8 +224,9 @@
     /* height : 352px; */
     /* aspect-ratio: 2 / 1; */
     height : 100%;
-    /* width : 100%; */
+    width : 100%;
     object-fit: cover;
+    display: block;
     /* background-size: cover; */
 }
 .imageSession p{
@@ -224,7 +234,11 @@
     font-family: sans-serif;
     text-shadow: 3px 3px 5px black;
     color : white;
+    position: absolute; 
+    bottom: 50px;
+    left: 100px;
 }
+   
 .insideContainer{
     z-index: 10;
     bottom: 110px;
