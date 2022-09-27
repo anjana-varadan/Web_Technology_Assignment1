@@ -77,7 +77,7 @@
     background-color: #535a5f;
 }
 
-.drop::after {
+.dropbtn::after {
     display: inline-block;
     margin-left: 0.5em;
     vertical-align: 0.255em;
@@ -87,6 +87,41 @@
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.drop:hover .dropdown-content {
+  display: block;
+}
+
 
 .internationlSession .rightNav{
     position: absolute;
@@ -176,10 +211,48 @@
     display: flex;
     align-items: center;
 }
+
+/*Tabbar dropdown*/
 .tabSession{
     height : 52px;
     background-color: #ccc!important;
 }
+.tabdropbtn {
+    background-color: #ccc!important;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tabdropdown {
+    position: relative;
+    display: block;
+  }
+  
+  .tabdropdown-content {
+    display: none;
+    position: absolute;   
+    background-color: #000!important;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .tabdropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .tabdropdown-content a:hover {background-color: #707070}
+  
+  .tabdropdown:hover .tabdropdown-content {
+    display: block;
+  }
+  
 .containerData{
     position: relative;
     width : 66%;
