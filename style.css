@@ -1,7 +1,6 @@
 *{
     margin : 0px;
     padding : 0px;
-    z-index: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 *, ::after, ::before {
@@ -14,7 +13,6 @@
     height:40px;
     width: 100%;
 }
-
 .container{
     width : 66%;
     height: 30px;
@@ -324,7 +322,6 @@
     left:50%;
     top:20px;
     transform: translate(-50%);
-    /* background-color: green; */
     height: 570px;
 }
 .leftContainer{
@@ -337,14 +334,13 @@
 }
 .rightContainer{
     margin-top: 40px;
-    /* margin-top: 2.3125rem; */
     position: relative;
     float: right;
     width: 40%;
     height:200px;
-    /* background-color: #990000; */
 }
 .tableContainer{
+    position: relative;
     border : solid rgba(164, 164, 164, 0.478) 1px;
 }
 .tableContainer h2{
@@ -414,21 +410,17 @@
     background-color: #f5f5f5!important;
     width: 100%;
     height:450px;
-    position: relative;
     margin-top: 130px;
 }
 .cardCenter{
     position: relative;
     display: flex;
-    /* flex-wrap:wrap; */
     justify-content: center;
-    /* align-items:flex-start; */
     width : 66%;
     height: 345px;
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    /* background-color: black; */
 }
 .card{
     margin:0px 20px;
@@ -603,4 +595,142 @@
 }
 .footerLink:hover{
     text-decoration: none;
+}
+
+
+/* mobile view ----- - - -- - - - - -- - - - - -- - - - -*/
+@media (max-width:900px){
+
+    .dangerContainer .container{
+        width:95%;
+        top:5px;
+        font-size: 13px;
+    }
+    .dangerContainer .container img{
+       height: 25px; 
+       width: 25px;
+    }
+    .leftNav{
+        display: none;
+        visibility: hidden;
+    }
+    .marginForAll{
+        width:95%;
+    }
+    .headerSession nav a{
+        display: none;
+    }
+
+    /* .headerSession .marginForAll{
+        width:95%;
+        left:55%;
+    } */
+    .imageSession .marginForAll img{
+        height:77%;
+        margin-top: 10px;
+    }
+    .imageSession{
+        height: 25vh;
+    }
+    .insideContainer{
+        bottom: 5px;
+        width:95%;
+    }
+    .insideContainer p{
+        font-size :24px
+    }
+    .tabdropdown{
+        display: none;
+        visibility: hidden;
+    }
+    .containerData{
+        width:95%;
+        top:0px;
+        height: 1100px;
+    } 
+    .leftContainer{
+        width:98%;
+        margin-top: 30px;
+        height: auto;
+    }
+    .leftbargreen{
+       height: 74%; 
+    }
+    .tableContainer h2{
+        font-size: 14px;
+    }
+    .tableContainer ul{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .rightContainer{
+        float:left;
+        width: 98%;
+        height: 400px;
+    }
+    .rightContainer iframe{
+        position: relative;
+        height: 200px;
+    }
+    .infoSession{
+        position: relative;
+    }
+    /* .textLeft{
+        display:none;
+        visibility: hidden;
+    } */
+    .cardSession{
+        position: relative;
+        height: 1100px;
+        margin-top: 10px;
+    }
+    .cardCenter{
+        /* background-color: #f5f5f5!important; */
+        /* height:100px; */
+        position: relative;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 98%;
+        margin : 50px 0px;
+    }
+    .card{
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        top:0px;
+        height:330px;
+    }
+    .numberSession{
+        /* background-color: #0e606c !important; */
+        height: 480px;
+    }
+    .numberCenter{
+        position: relative;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 90%;
+        padding: 50px 0;
+        /* margin : 50px 0px; */
+    }
+    .numberCard{
+        margin-top: 20px;
+        position: relative;
+        width: 100%;
+        top:0px;
+        height:100px;
+    }
+    .secondlastFooter{
+        margin-top: 40px;
+        height:790px; 
+    }
+    .rightBoder{
+        display: none;
+    }
+    .footerCard .data img{
+        width: 30px;
+    }
+    .footer{
+        padding:10px;
+        height:90px
+    }
 }
